@@ -11,15 +11,15 @@ Author: **Titorps360**
 ### Solution
 My laptop is arm architecture so I will decompile elf file with online tool. [[Link]](http://www.sunshine2k.de/coding/javascript/onlineelfviewer/onlineelfviewer.html)
 
-![1.png](./1.png)
+![1.png](./image/1.png)
 
 Yeah, I found something interesting so I will research about **how to extract pydata from elf**. [[Link]](https://github.com/extremecoders-re/pyinstxtractor)
 
-![2.png](./2.png)
+![2.png](./image/2.png)
 
 Dammmm, I need to run on python3.10 so I will do it again on python3.10
 
-![3.png](3.png)
+![3.png](./image/3.png)
 
 Finally, I got extract of wish_dragon, Uncompyle6 and Decompyle++ are the two Python decompilers that I need to use to decompile Python however, from what I've read about these two program, they don't support Python 3.10 so I need to use pycdc to decompile. [[Link]](https://github.com/zrax/pycdc)
 
@@ -38,21 +38,21 @@ After Install pycdc, Let's exploit
 pycdc [folder_of_pyc]/challenge.pyc > challenge.py
 ```
 
-![4.png](./4.png)
+![4.png](./image/4.png)
 
 Now, I know if I type hint the program will return seed, Let's try!!!!
 
-![5.png](./5.png)
+![5.png](./image/5.png)
 
 Yummy, I got the seed. 
 
-![6.png](./6.png)
+![6.png](./image/6.png)
 
 I bring some code that creates the answer and assigns the newly returned seed from the previous stage. Run program and get the flag XD!!!!
 
-![7.png](./7.png)
+![7.png](./image/7.png)
 
-![8.png](./8.png)
+![8.png](./image/8.png)
 
 ---
 
